@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>株式会社ハルスタイル</title>
+  <meta name="description" content="株式会社ハルスタイルはアパレル商品のデザインから販売まで一貫して行っています。アパレルを通じて、みなさまの暮らしに寄り添う価値をお届けしています">
+  <meta name="keywords" content="株式会社ハルスタイル,ハルスタイル,アパレル企業,ファッション">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="https://withcode-plus.tech">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ハルスタイル">
+  <meta property="og:description" content="株式会社ハルスタイルはアパレル商品のデザインから販売まで一貫して行っています。アパレルを通じて、みなさまの暮らしに寄り添う価値をお届けしています">
+  <meta property="og:site_name" content="株式会社ハルスタイル">
+  <meta property="og:image" content="https://withcode-plus.tech/img/logo.png">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="apple-touch-icon" sizes="180×180" href="img/logo.png">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common1.css">
+  <link rel="stylesheet" type="text/css" href="../css/common2.css">
+  <link rel="stylesheet" type="text/css" href="../css/contact.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="header-wrap">
+      <div class="header-wrap__logo">
+        <a href="../index.html">株式会社ハルスタイル</a>
+      </div>
+      <nav class="header-wrap__nav">
+        <ul class="header-wrap__nav__list">
+          <li class="header-wrap__nav__list__item">
+            <a href="../html/company.html">
+              <span>Company</span>会社情報
+            </a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="../html/service.html">
+              <span>Service</span>事業内容
+            </a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="../html/news.html">
+              <span>News</span>お知らせ
+            </a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="../html/recruit.html">
+              <span>Recruit</span>採用情報
+            </a>
+          </li>
+          <li class="header-wrap__nav__list__item">
+            <a href="../html/contact.html">
+              <span>Contact</span>お問い合わせ
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="drawer">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="top" id="top">
+      <div class="top-wrap __inner">
+        <div class="top-wrap__ttl">
+          <h2 class="ttl">
+            <span class="ttl__sub">Contact</span>
+            お問い合わせ
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="breadcrumb" id="breadcrumb">
+      <div class="breadcrumb-wrap __inner">
+        <nav class="breadcrumb-wrap__nav">
+          <ol class="breadcrumb-wrap__nav__list">
+            <li class="breadcrumb-wrap__nav__list__item">
+              <a href="../index.html">TOP</a>
+            </li>
+            <li class="breadcrumb-wrap__nav__list__item">
+              <a href="contact.html">お問い合わせ</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <section class="con_lead" id="con-lead">
+      <div class="con_lead-wrap __inner">
+        <p>弊社のホームページをご覧いただきありがとうございます。<br>
+        お問い合わせは下記フォームより受け付けております。必須事項をご入力の上、内容をご確認後送信してください。</p>
+      </div>
+    </section>
+
+    <section class="tab" id="tab">
+      <div class="tab-wrap __inner">
+        <nav class="tab-wrap__nav">
+          <ul class="tab-wrap__nav__list">
+            <li class="tab-wrap__nav__list__item">
+              <a href="contact.html#corporate">
+                法人の方
+              </a>
+            </li>
+            <li class="tab-wrap__nav__list__item">
+              <a href="contact.html#rec">
+                採用について
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="form" id="corporate">
+      <div class="form-wrap __inner">
+        <div class="form-wrap__ttl">
+          <h2>法人の方</h2>
+        </div>
+        <div class="form-wrap__con">
+          <form action="../mail.php" id="form" class="form-wrap__con__form" method="post">
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お問い合わせ種別</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input __sp">
+                <div class="form-wrap__con__form__block__input__radio">
+                  <input type="radio" id="type" name="お問い合わせ種別" value="商品・サービスについて" required="required">商品・サービスについて
+                </div>
+                <div class="form-wrap__con__form__block__input__radio">
+                  <input type="radio" id="type" name="type" value="会社見学について" required="required">会社見学について
+                </div>
+                <div class="form-wrap__con__form__block__input__radio">
+                  <input type="radio" id="type" name="type" value="その他" required="required">その他
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>会社名</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="company" name="company" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お名前(漢字)</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="name" name="name" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お名前(フリガナ)</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="name_kana" name="name_kana" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>電話番号</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="tel" name="tel" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>メールアドレス</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="mail" name="mail" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block __area">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お問い合わせ内容</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__area">
+                <textarea name="お問い合わせ内容" class="contact-wrapper__form__box__area" id="message" required="required"></textarea>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__btn">
+              <button type="submit">送信する</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="form" id="rec">
+      <div class="form-wrap __inner">
+        <div class="form-wrap__ttl">
+          <h2>採用について</h2>
+        </div>
+        <div class="form-wrap__con">
+          <form action="../mail.php" id="form" class="form-wrap__con__form" method="post">
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お問い合わせ種別</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__radio">
+                  <input type="radio" id="type" name="type" value="新卒採用" required="required">新卒採用
+                </div>
+                <div class="form-wrap__con__form__block__input__radio">
+                  <input type="radio" id="type" name="type" value="中途採用" required="required">中途採用
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>学校名</p>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="school" name="school">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>前職・現職</p>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="company" name="company">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お名前(漢字)</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="name" name="name" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お名前(フリガナ)</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="name_kana" name="name_kana" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>電話番号</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="tel" name="tel" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>メールアドレス</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__input">
+                <div class="form-wrap__con__form__block__input__text">
+                  <input type="text" id="mail" name="mail" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__block __area">
+              <label class="form-wrap__con__form__block__ttl">
+                <p>お問い合わせ内容</p>
+                <span>必須</span>
+              </label>
+              <div class="form-wrap__con__form__block__area">
+                <textarea name="お問い合わせ内容" class="contact-wrapper__form__box__area" id="message" required="required"></textarea>
+              </div>
+            </div>
+            <div class="form-wrap__con__form__btn">
+              <button type="submit">送信する</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footer-wrap">
+      <div class="footer-wrap__info">
+        <div class="footer-wrap__info__logo">
+          <a href="../index.html">株式会社ハルスタイル</a>
+        </div>
+        <div class="footer-wrap__info__add">
+          <p>〒000-0000<br>
+            福井県福井市中央1丁目1</p>
+        </div>
+        <div class="footer-wrap__info__copyright">
+          <p>©2026 Harustyle All.Rights reserved</p>
+        </div>
+      </div>
+      <div class="footer-wrap__nav">
+        <ul class="footer-wrap__nav__list">
+          <li class="footer-wrap__nav__list__item">
+            <a href="../html/company.html" class="__bb">会社情報</a>
+            <ul class="footer-wrap__nav__list__item__sub">
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/company.html#mes">・代表挨拶</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/company.html#overview">・会社概要</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/company.html#access">・アクセス</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__nav__list">
+          <li class="footer-wrap__nav__list__item">
+            <a href="../html/service.html" class="__bb">事業内容</a>
+            <ul class="footer-wrap__nav__list__item__sub">
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/service.html#overview">・事業概要</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/service.html#strengths">・私たちの強み</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/service.html#brand">・ブランド紹介</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__nav__list">
+          <li class="footer-wrap__nav__list__item">
+            <a href="../html/recruit.html" class="__bb">採用情報</a>
+            <ul class="footer-wrap__nav__list__item__sub">
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/recruit.html#number">・数字で見る</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/recruit.html#interview">・社員インタビュー</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/recruit.html#des">・募集要項</a>
+              </li>
+              <li class="footer-wrap__nav__list__item__sub__item">
+                <a href="../html/recruit.html#flow">・採用までの流れ</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="footer-wrap__nav__list">
+          <li class="footer-wrap__nav__list__item">
+            <a href="../html/news.html" class="__bb">お知らせ</a>
+          </li>
+          <li class="footer-wrap__nav__list__item __con">
+            <a href="../html/contact.html" class="__bb">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>
