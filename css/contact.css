@@ -186,6 +186,14 @@
 }
 
 @media screen and (max-width: 768px) {
+  .tab-wrap__nav__list__item a {
+    font-size: 1.15rem;
+  }
+
+  .form {
+    margin-bottom: 5%;
+  }
+  
   .form-wrap__ttl h2 {
     font-size: 1.55rem;
   }

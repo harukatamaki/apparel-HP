@@ -149,6 +149,14 @@
     display: none;
   }
 
+  .breadcrumb-wrap__nav__list__item:nth-of-type(2)::after {
+    font-size: 0.7rem;
+  }
+
+  .breadcrumb-wrap__nav__list__item:nth-of-type(3)::after {
+    font-size: 0.8rem;
+  }
+
   .interview-wrap__head__ttl {
     font-size: 1.45rem;
   }

@@ -36,6 +36,11 @@
   display: flex;
 }
 
+.breadcrumb-wrap__nav__list__item {
+  display: flex;
+  align-items: center;
+}
+
 .breadcrumb-wrap__nav__list__item:nth-of-type(1)::after {
   content: ">";
   margin: 0 8px;
@@ -66,11 +71,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .top-wrap {
-    height: 20vh;
-  }
-
   .top-wrap__ttl {
     margin-top: 5%;
+  }
+
+  .breadcrumb-wrap__nav__list__item a {
+    font-size: 0.7rem;
+  }
+
+  .breadcrumb-wrap__nav__list__item:nth-of-type(1)::after {
+    font-size: 0.7rem;
   }
 }

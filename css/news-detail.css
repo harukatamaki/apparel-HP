@@ -94,6 +94,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .breadcrumb-wrap__nav__list__item:nth-of-type(2)::after {
+    font-size: 0.7rem;
+  }
+
   .news_detail-wrap__head__ttl {
     font-size: 1.45rem;
   }
