@@ -119,6 +119,11 @@
   object-position: 50%;
 }
 
+.interview-wrap__body__btn {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1024px) {
   .interview-wrap__head__ttl {
     font-size: 1.6rem;
