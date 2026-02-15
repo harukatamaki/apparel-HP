@@ -116,7 +116,8 @@ main::after {
 }
 
 .company-wrap__body__right__btn {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .service-wrap.__inner {
@@ -146,7 +147,8 @@ main::after {
 }
 
 .service-wrap__body__left__btn {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .service-wrap__body__right {
@@ -195,7 +197,8 @@ main::after {
 
 .recruit-wrap__con__btn {
   width: 40%;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .news {
@@ -269,7 +272,7 @@ main::after {
   }
 
   .company-wrap__body__right__btn {
-    text-align: left;
+    justify-content: flex-start;
   }
 
   .company-wrap__body__left {
@@ -290,7 +293,7 @@ main::after {
   }
 
   .service-wrap__body__left__btn {
-    text-align: left;
+    justify-content: flex-start;
 
   }
 
@@ -311,7 +314,7 @@ main::after {
 
   .recruit-wrap__con__btn {
     width: 100%;
-    text-align: center;
+    justify-content: center;
   }
 
   .news-wrap {

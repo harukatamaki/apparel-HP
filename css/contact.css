@@ -107,6 +107,8 @@
 
 .form-wrap__con__form__block__input__radio {
   margin-right: 5%;
+  display: flex;
+  align-items: center;
 }
 
 .form-wrap__con__form__block__input__text {

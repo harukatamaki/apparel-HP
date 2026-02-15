@@ -33,10 +33,11 @@
 }
 
 .number-wrap__body__block {
-  background-color: #fff;
-  width: 32%;
   aspect-ratio: 1 / 1;
-  margin-bottom: 2%;
+  background-color: #fff;
+  width: 28%;
+  padding: 1%;
+  margin-bottom: 4%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,20 +45,20 @@
 }
 
 .number-wrap__body__block__icon {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .number-wrap__body__block__icon span {
-  font-size: 5.5rem;
+  font-size: 5.65rem;
   display: block;
 }
 
 .number-wrap__body__block__ttl {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .number-wrap__body__block__ttl p {
-  font-size: 1.5rem;
+  font-size: 1.62rem;
   font-weight: 700;
 }
 
@@ -72,7 +73,7 @@
 }
 
 .number-wrap__body__block__txt__number p {
-  font-size: 3.75rem;
+  font-size: 3.8rem;
   line-height: 1.2;
   font-weight: 700;
   color: #a43434;
@@ -88,7 +89,6 @@
 
 .number-wrap__body__block__txt__number__percent {
   font-size: 1.5rem;
-  font-weight: 400;
 }
 
 .number-wrap__body__block__txt__number__day {
@@ -238,10 +238,6 @@
 
 
 @media screen and (max-width: 1024px) {
-  .number-wrap__body__block {
-    padding: 2% 0;
-  }
-
   .number-wrap__body__block__icon {
     margin-bottom: 3%;
   }
@@ -251,7 +247,7 @@
   }
 
   .number-wrap__body__block__txt__number p {
-    font-size: 3.5rem;
+    font-size: 3.62rem;
   }
 }
 
@@ -262,24 +258,20 @@
 
   .number-wrap__body__block {
     width: 100%;
-    aspect-ratio: auto;
-    padding: 3.5% 0;
+    aspect-ratio: 2 / 1;
+    padding: 1% 0;
   }
 
-  .number-wrap__body__block__icon {
-    margin-bottom: 3%;
-  }
-
-  .number-wrap__body__block__ttl {
-    margin-bottom: 3%;
-  }
-
-  .number-wrap__body__block__ttl p {
-    font-size: 1.3rem;
+  .number-wrap__body__block__icon span {
+    font-size: 6rem;
   }
 
   .number-wrap__body__block__txt {
-    width: 60%;
+    width: 67.5%;
+  }
+
+  .number-wrap__body__block__txt__number p {
+    font-size: 3.8rem;
   }
 
   .interview-wrap__body {

@@ -38,7 +38,7 @@
 
 .breadcrumb-wrap__nav__list__item:nth-of-type(1)::after {
   content: ">";
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .breadcrumb-wrap__nav__list__item:nth-of-type(2) a {
