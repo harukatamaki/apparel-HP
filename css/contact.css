@@ -178,7 +178,10 @@
 
   .form-wrap__con__form__block__area {
     width: 100%;
-    height: 20rem;
+  }
+
+  .form-wrap__con__form__btn {
+    margin-top: 5%;
   }
 }
 

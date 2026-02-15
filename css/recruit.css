@@ -249,6 +249,10 @@
   .number-wrap__body__block__txt__number p {
     font-size: 3.62rem;
   }
+
+  .interview-wrap__body__block__txt {
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 768px) {

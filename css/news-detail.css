@@ -65,7 +65,7 @@
 }
 
 .news_detail-wrap__body__img {
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 3 / 1;
   margin-bottom: 2%;
 }
 
@@ -74,6 +74,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 20%;
 }
 
 .news_detail-wrap__body__txt {
